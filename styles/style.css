@@ -135,7 +135,7 @@ header img{
 
 /* Vision Style  */
 .vision{
-    height: 765px;
+    height: 745px;
 }
 .vision .section-title{
     margin-bottom: 24px;
@@ -206,7 +206,7 @@ header img{
     background-color: #FFC239;
 }
 .vision .card button:hover{
-    background-color: #bf0fff5c;
+    background-color: #ff0f73c3;
     cursor: pointer;
 }
 .quote-box{
@@ -237,8 +237,7 @@ header img{
 
 /* Recent News  */
 .recent-news{
-    height:980px;
-
+    height:960px;
 }
 .recent-news .section-title{
     margin-bottom: 24px;
@@ -255,7 +254,6 @@ header img{
     font-weight: 600;
     font-size: 18px;
 }
-
 .above-news, .below-news{
     margin-top: 32px;
     height: 402px;
@@ -274,8 +272,6 @@ header img{
     height: 306px;
     border-radius: 24px;
 }
-
-
 .above-news .news img, .below-news .news img{
     width: 128px;
     height: 40px;
@@ -295,7 +291,111 @@ header img{
     margin-top: 24px;
 }
 
+/* Donate Style  */
+.donate{
+    height: 445px;
+    border: 1px solid beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
 
+
+.donate input{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+}
+
+.donate .btn-donate{
+    color: white;
+    font-size: 18;
+    font-weight: 600;
+    background-color: #006A50;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    padding: 17px 33px;
+    max-width: fit-content;
+}
+.donate .btn-donate :hover{
+    background-color: #bf0fff5c;
+    cursor: pointer;
+}
+
+.donate .section-title{
+    font-size: 40px;
+    font-style: bold;
+    color:#0E0E0E;
+    margin-bottom: 24px;
+
+}
+
+.donate .description{
+    width:1059px;
+}
+
+.donate .cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 23px;
+}
+
+.donate .money{
+    font-weight:700;
+    font-size: 40px;
+    border-radius: 16px;
+    padding: 40px 38px;
+    color: rgba(14, 14, 14, 0.8);
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.donate input{
+    width: 990px;
+    padding: 20px 29px;
+    color: rgba(14, 14, 14, 0.3);
+    text-align: center;
+    border-style: none;
+}
+
+.donate .card2{
+    background-color: #C6E4D6;
+}
+.donate .card1:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.donate .card2:hover{
+    background-color: rgba(0, 0, 255, 0.763);
+    cursor: pointer;
+}
+.donate .card3:hover{
+    background-color: rgba(0, 128, 0, 0.694);
+    cursor: pointer;
+}
+.donate .card4:hover{
+    background-color: violet;
+    cursor: pointer;
+}
+.donate .btn-donate:hover{
+    background-color: peru;
+    cursor: pointer;
+}
+
+
+/* newletter Style 
+.newsletter{
+    height:395px;
+    border: 1px solid red;
+
+}
+.newsletter .container{
+    width: 720px;
+    height: 235px;
+    margin: auto auto;
+    border: 1px solid black;
+} */
 /* Footer style */
 footer{
     height: 226px;
