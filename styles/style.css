@@ -1,12 +1,30 @@
 *{
     margin: 0;
-    padding: 0;}
+    padding: 0;
+}
+
 body {
-    font-family: "Fira Sans", serif;}
-header, main{
+    font-family: "Fira Sans", serif;
     background-color: #F5F5F5;
+}
+header, main{
     padding-left: 153px;
-    padding-right: 153px;}
+    padding-right: 153px;
+}
+
+main section{
+    margin-bottom: 80px;
+}
+
+.section-title{
+    font-style: bold;
+    font-size: 40;
+    color: #0E0E0E;
+}
+.description{
+    font-size: 16;
+    color:rgba(14, 14, 14, 0.7);
+}
 
 /* Common Styles */
 .bold{
@@ -26,10 +44,18 @@ header, main{
 .center{
     text-align: center;}
 
+
 /* Header Style  */
+header{
+    height: 680px;
+}
 header .top{
+    padding-top: 24px;
+    padding-bottom: 24px;
     display: flex;
-    justify-content: space-between;}
+    justify-content: space-between;
+    align-items: center;
+}
 header input[type="button"]{
     font-weight: 600;
     font-size: 18px;
@@ -67,16 +93,213 @@ header .hero button{
     font-weight: 600;
     font-size: 18px;
     padding: 17px 33px;
-    border-radius: 8px;}
+    border-radius: 8px;
+    border-style: none;}
 header img{
     width: 455px;
     height: 384px;}
 
+/* Pillar Style  */
+.pillars{
+    height: 324px;
+    margin-top: 80px;
+}
+.pillars .section-title{
+    margin-bottom: 32px;
+}
+.pillar-container{
+    height: 244px;
+    display: flex;
+    justify-content: space-between;
+    gap: 23px;
+}
+.pillar{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    padding: 24px 23px;
+}
+.pillars .pillar img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 24px;
+}
+.pillar .title{
+    font-size: 16;
+    color: #0E0E0E;
+}
+
+/* Vision Style  */
+.vision{
+    height: 765px;
+}
+.vision .section-title{
+    margin-bottom: 24px;
+}
+.card-container{
+    height: 325px;
+    display: flex;
+    gap: 23px;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.vision .card{
+    border-radius: 16px;
+    flex: 1;
+}
+.card1{
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px 31px;
+    padding-right: 10px;
+}
+.card2{
+    background-color: rgba(198, 228, 214, 1);
+    padding: 32px 31px;
+}
+.card3{
+    background: #F7EBCF;
+    padding: 24px 23px;
+}
+
+.vision .card img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 24px;
+}
+.vision .card .title{
+    margin-bottom: 12px;
+}
+
+.vision .card1 .description {
+    margin-bottom: 24px;
+}
+.vision .card2 .description {
+    margin-bottom: 48px;
+}
+.vision .card3 .description {
+    margin-bottom: 64px;
+}
+.card1 p{
+    width: 90%;
+}
+.vision .card-container button{
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    border-style: none;
+    border-radius: 16px;
+    padding: 11px 19px;
+    text-align: center;
+}
+.vision .card1 button{
+    background-color: #5490F5;
+} 
+.vision .card2 button{
+    background-color: #09A15C;
+} 
+.vision .card3 button{
+    background-color: #FFC239;
+}
+.vision .card button:hover{
+    background-color: #bf0fff5c;
+    cursor: pointer;
+}
+.quote-box{
+    background: url('../assets/quote-bg.png');
+    background-position: top 25px left 23px;
+    background-repeat: no-repeat;
+
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 48px 23px;
+}
+.quote-box .quotation-text{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.quote-box .speaker{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+.quote-box .designation{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+}
+
+
+/* Recent News  */
+.recent-news{
+    height:980px;
+
+}
+.recent-news .section-title{
+    margin-bottom: 24px;
+}
+
+.recent-news button{
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 13px 25px;
+    color: white;
+    border-style: none;
+    width:fit-content;
+    height: 48px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.above-news, .below-news{
+    margin-top: 32px;
+    height: 402px;
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+    gap: 31px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 46px;
+    padding-right: 46px;
+}
+
+.recent-news .satelite{
+    width: 391px;
+    height: 306px;
+    border-radius: 24px;
+}
+
+
+.above-news .news img, .below-news .news img{
+    width: 128px;
+    height: 40px;
+}
+
+.above-news .news, .below-news .news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.recent-news .title{
+    font-weight:700;
+}
+
+.below-news{
+    margin-top: 24px;
+}
 
 
 /* Footer style */
 footer{
-    height: 226px;}
+    height: 226px;
+background-color: white;}
 .footer-container{
     width: 1077px;
     margin: 0 auto;
